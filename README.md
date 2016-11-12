@@ -36,6 +36,8 @@ http://localhost:3000/graphiql
 ```
 
 ## Todo
+- [x] Prediction Optimistic UI
+- [X] Integrate Apollo Store with Redux Store
 - [ ] Universal rendering
 - [ ] Unit test
 - [ ] Subscrition realtime data
