@@ -1,0 +1,9 @@
+.vscode
+node_modules
+dev.sqlite3
+tmp
+dist
+typings/modules
+typings/globals
+yarn-error.log
+npm-debug.log

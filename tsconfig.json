@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": false,
+    "removeComments": true,
+    "module": "commonjs",
+    "diagnostics": false,
+    "sourceMap": false,
+    "target": "ES6",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "jsx": "react",
+    "allowUnusedLabels": true,
+    "typeRoots": [ "node_modules/@types/" ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
