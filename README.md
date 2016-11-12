@@ -23,6 +23,10 @@ $ npm run hot // run client
 - [ ] Unit test
 - [ ] Subscrition realtime data
 - [ ] 3rd party Authentication
+- [ ] Docker build script
+- [ ] Production build script
+- [ ] CSS Module
+- [ ] Component lazy load
 
 # License
 MIT
