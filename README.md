@@ -19,6 +19,17 @@ Run project
 $ npm start // run graphql server
 $ npm run hot // run client
 ```
+## Helpers
+MigrateDB
+```
+$ npm run migrate
+```
+
+SeedDB
+```
+$ npm run seed
+```
+
 GraphiQL
 ```
 http://localhost:3000/graphiql
