@@ -44,6 +44,8 @@ http://localhost:3000/graphiql
 - [ ] Production build script
 - [ ] CSS Module
 - [ ] Component lazy load
+- [ ] Presist Storage
+- [ ] Progressive web app
 
 # License
 MIT
