@@ -3,6 +3,8 @@ Clean boilerplate for React graphQL + SQL with a lot of fancy friends!
 
 - Typescript
 - Apollo GraphQL Client
+- GraphQL Server
+- GraphiQL
 - React
 - Redux
 
@@ -16,6 +18,10 @@ Run project
 ```
 $ npm start // run graphql server
 $ npm run hot // run client
+```
+GraphiQL
+```
+http://localhost:3000/graphiql
 ```
 
 ## Todo
