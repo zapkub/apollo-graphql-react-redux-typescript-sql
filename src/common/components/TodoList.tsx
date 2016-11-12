@@ -1,5 +1,4 @@
 import * as React from 'react';
-import {  } from 'apollo-react';
 type Query = {
     loading: boolean,
     getTodos: {
@@ -16,7 +15,7 @@ export default (props: {data: Query}) => (
                 <div>
                     {
                         props.data.getTodos.map(
-                            (item) => <div key={item.id}>{item.name}</div>
+                            (item) => <div key={item.id}><input type='checkbox' />{item.name}</div>
                         )
                     }
                 </div>

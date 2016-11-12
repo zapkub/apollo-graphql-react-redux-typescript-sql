@@ -7,3 +7,4 @@ typings/modules
 typings/globals
 yarn-error.log
 npm-debug.log
+knexfile.js
