@@ -2,13 +2,15 @@
 
 const Query = `
     type Query {
-        getTodos(limit: Int): [Todo]
+        getTodos(page: Int, limit: Int, filter: Boolean): [Todo]
+        getTodoById(id: Int!): Todo
     }
 `;
 
 const Mutation = `
     type Mutation {
         createTodo(name: String!): Todo
+        toogleTodo(id: Int!): Todo
     }
 `;
 

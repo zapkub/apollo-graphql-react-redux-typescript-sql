@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./server.js",
+    "start": "nodemon -r babel-polyfill ./server.js",
+    "watch": "nodemon -e ts,tsx -r babel-polyfill --watch ./src  ./server.js",
     "migrate": "knex migrate:latest",
     "seed": "knex seed:run",
     "postinstall": "typings install",
@@ -51,7 +52,9 @@
     "graphql-tools": "^0.8.1",
     "knex": "^0.12.6",
     "lodash": "^4.16.6",
+    "logdown": "^1.4.2",
     "react": "^15.3.2",
+    "react-addons-update": "^15.3.2",
     "react-apollo": "^0.5.16",
     "react-dom": "^15.3.2",
     "react-hot-loader": "^3.0.0-beta.6",
@@ -59,6 +62,10 @@
     "react-router": "^3.0.0",
     "react-router-redux": "^4.0.7",
     "redux": "^3.6.0",
+    "redux-logger": "^2.7.4",
+    "redux-promise-middleware": "^4.1.0",
+    "redux-saga": "^0.12.1",
+    "redux-thunk": "^2.1.0",
     "sqlite3": "^3.1.8"
   }
 }

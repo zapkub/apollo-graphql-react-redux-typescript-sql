@@ -1,6 +1,8 @@
 /// <reference path="../../typings/index.d.ts" />
 import * as React from 'react';
 import { Component } from 'react';
+import ApolloClient from 'apollo-client';
+
 import { render } from 'react-dom';
 import configureStore from '../common/store/configureStore';
 const AppContainer = require('react-hot-loader').AppContainer;
@@ -11,9 +13,13 @@ declare var window: any;
 
 const mount = document.createElement('div');
 document.body.appendChild(mount);
-const store = configureStore();
+
+const client = new ApolloClient();
+const store = configureStore(undefined, client);
+
+
 window.onload = function () {
-    render(<App store={store} />, mount);
+    render(<App store={store} client={client} />, mount);
 };
 
 
@@ -24,7 +30,7 @@ if (module.hot) {
         const NextApp = require('./App').default;
         render(
             <AppContainer>
-                <NextApp store={store} />
+                <NextApp store={store} client={client}/>
             </AppContainer>,
             mount
         );

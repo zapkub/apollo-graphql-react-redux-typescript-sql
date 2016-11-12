@@ -5,10 +5,16 @@
     "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20161012061536",
     "node": "registry:dt/node#6.0.0+20161110151007",
     "react": "registry:dt/react#0.14.0+20161024223416",
+    "react-addons-update": "registry:dt/react-addons-update#0.14.0+20160316155526",
     "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
     "react-redux": "registry:dt/react-redux#4.4.0+20160908183346",
     "react-router": "registry:dt/react-router#2.0.0+20160928130202",
-    "react-router-redux": "registry:dt/react-router-redux#4.0.0+20160930121107"
+    "react-router-redux": "registry:dt/react-router-redux#4.0.0+20160930121107",
+    "redux-logger": "registry:dt/redux-logger#2.6.0+20160619033847",
+    "redux-promise": "registry:dt/redux-promise#0.5.3+20160914125120",
+    "redux-promise-middleware": "registry:dt/redux-promise-middleware#0.0.0+20160108032528",
+    "redux-saga": "registry:dt/redux-saga#0.9.1+20160703120921",
+    "redux-thunk": "registry:dt/redux-thunk#2.1.0+20160703120921"
   },
   "dependencies": {
     "express": "registry:npm/express#4.14.0+20160925001530",
